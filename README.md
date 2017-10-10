@@ -15,9 +15,9 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 cd $HOME
 
-git clone https://github.com/CSS3352/Doostiha.git
+git clone https://github.com/arenaraman/2bot.git
 
-cd Doostiha
+cd 2bot
 
 chmod +x launch.sh
 
@@ -27,7 +27,7 @@ cd .luarocks && cd bin && ./luarocks-5.2 install luafilesystem && ./luarocks-5.2
 
 cd $HOME
 
-cd Doostiha
+cd 2bot
 
 ./launch.sh install
 
